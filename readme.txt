@@ -27,3 +27,10 @@ git push origin dev
 1. 当远程程序有了新的branch的时候，我们需要使用 git pull,然后再用
 git checkout -b dev origin/dev 来构建他们之间的联系。
 2. 只需要一个文件夹来管理同一个程序，不需要给定不同的文件夹名称。
+
+2021.8.11 berkeley
+learn how to use git again and again.
+尤其是当远程库有多个branch的时候，我们需要先git pull --all
+然后构建关联：
+git checkout -b dev origin/dev
+
