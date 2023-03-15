@@ -46,3 +46,8 @@ git branch
 git push -u
 git push --set-upstream origin chao
 
+do some changes
+git add .
+git commit -m "blabla"
+git push origin hybridchao
+
