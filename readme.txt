@@ -34,3 +34,15 @@ learn how to use git again and again.
 然后构建关联：
 git checkout -b dev origin/dev
 
+2023.03.15
+To creat a new branch of an exiting project,
+git clone *git
+git pull --all
+git branch
+git checkout -b chao
+git push origin chao
+git branch --set-upstream-to=origin/chao
+git branch
+git push -u
+git push --set-upstream origin chao
+
